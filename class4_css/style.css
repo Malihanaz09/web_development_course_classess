@@ -1,10 +1,27 @@
-body{
-    background-color: rgb(235, 52, 232);
+*{
+    /* background-color: yellow; */
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
-.heading{
-    color: brown;
-    background-color: yellow;
+h1{
+    margin: 40px;
+    padding: 20px;
+}
+p{
+    color: white;
+      font-size: 20px;
+    font-weight: bold;
 }
 #para1{
-    background-color: aqua;
+    color: blue;
+}
+.main{
+    background-color: hotpink;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
 }
