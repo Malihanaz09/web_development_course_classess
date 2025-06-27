@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
+   
+}
+#box1{
+    background-color: lightcoral;
+    align-self: flex-start;
+    /* flex-grow: 1; */
+    }
+#box2{
+    background-color: rebeccapurple;
+}
+#box3{
+    background-color: yellow;
+}
+#box4{
+    background-color: lime;
+}
+#box5{
+    background-color: red;
+}

@@ -1,0 +1,60 @@
+*{
+    font-family: sofia;
+    margin: 10px
+}
+h1{
+    background-color: yellow;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px blue;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.center{
+    text-align: center;
+}
+.para1{
+    background-color: greenyellow;
+    line-height:30px;
+    text-transform: capitalize;
+}
+#para2{
+    background-color: yellow;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+button{
+    display: block;
+}
+
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: 2px solid black;
+    display: inline-block
+}
+
+#box1{
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+#box2{
+    position: relative;
+    z-index: 1;
+}
+#box3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#box4{
+    position: fixed;
+    top: 10px;
+}
