@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+   text-align: center;
+    padding: 20px;
+}
+#heading{
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}
+#newHeading{
+    color: green;
+    font-size: 30px;
+    text-align: center;
+}
+.btn{
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btn2{
+    background-color: green;
+    box-shadow: 0 4px 8px rgba(10, 9, 9, 0.2);
+}
